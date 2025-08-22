@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .heading {
+            text-align: center;
+            background-color: #f1f1f1;
+            padding: 20px;
+
+        }
+
+        .rows {
+            display: flex;
+            flex-direction: row;
+            margin: 4%;
+            flex-wrap: wrap;
+        }
+
+
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+
+        }
+
+        .card {
+            width: 18rem;
+            flex: 1 1 calc(33.333% - 40px);
+            margin: 1%;
+            box-sizing: border-box;
+
+        }
+
+
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(50% - 40px);
+                /* 2 cards per row */
+            }
+
+            .footer {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                flex: 1 1 100%;
+                /* 1 card per row */
+            }
+
+            .heading,
+            .footer {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <div class="heading">
+        <h2>Welcome!</h2>
+    </div>
+
+    <div class="rows"> <!-- Row 1-->
+
+        <div class="card" style="width: 18rem;">
+            <img src="15daysofSql.jpg" class="card-img-top" alt="...">
+            
+            <div class="card-body">
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p> -->
+                <a href="UDEMY 15 DAYS OF SQL.pdf" download="download">Download Now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem; ">
+            <img src="AgileFundamentals.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p> -->
+                <a href="udemy agile fundamental.pdf" download="download">Download Now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="AgileProjectManagement.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p> -->
+                <a href="Udemy Agile project model.pdf" download="download">Download Now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="Non-verbal.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p> -->
+                <a href="Udemy Body Language.pdf" download="download">Download Now</a>
+            </div>
+        </div>
+
+
+
+        <div class="card" style="width: 18rem;">
+            <img src="BusinessCommunication.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p> -->
+                <a href="Udemy Business Communication.pdf" download="download">Download Now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="CommunicationFundamental.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p> -->
+                <a href="Udemy Comunication fundamental.pdf" download="download">Download Now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="GenAI.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p> -->
+                <a href="Udemy GEN AI CFT.pdf" download="download">Download Now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="CompleteSQLBootcamp.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p> -->
+                <a href="The Complete SQL Bootcamp.pdf" download="download">Download Now</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="CompletePLSQLBootcamp.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p> -->
+                    <a href="The Complete PL-SQL Bootcamp.pdf" download="download">Download Now</a>
+            </div>
+        </div>
+
+    </div> <!-- Row 2-->
+
+    <div class="footer">
+
+        <h2>Contacts</h2>
+        <div>
+            <h4>© all copyright reserved</h2>
+        </div>
+        <div>
+            <a href="#"> Email</a><br>
+            <a href="#"> facebook</a><br>
+            <a href="#"> twitter</a><br>
+        </div>
+
+    </div>
+</body>
+
+</html>
